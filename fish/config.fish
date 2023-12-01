@@ -1,6 +1,6 @@
 # #  /mnt/c/users/Zenith
 
-export LS_COLORS="di=36:fi= 37:ex=50:"
+export LS_COLORS="di=37:fi= 37:ex=50:"
 # # set -g tide_left_prompt_frame_enabled true
 set -gx LS_COLORS "$LS_COLORS:ow=1;34:tw=1;34:di=36:fi=37"
 set -gx EDITOR 'nvim'
