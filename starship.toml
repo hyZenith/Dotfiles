@@ -1,0 +1,19 @@
+
+format = """
+[╭──](bold #0077c2) $directory\
+$username\
+$hostname\
+$localip\
+$jobs\
+$git_branch\
+$git_state\
+$git_status\
+$status\
+$line_break\
+[╰─](bold #21c7c7)$character"""
+
+
+
+[character]
+success_symbol = "[❯](white)"
+error_symbol = "[❯](red)"
