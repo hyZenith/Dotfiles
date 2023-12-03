@@ -173,7 +173,7 @@ abbr -a trr 'trash-restore'
 alias ls "exa -a --icons"
 alias ll='exa -l --icons --no-user --group-directories-first  --time-style long-iso'
 alias n nvim
-
+alias exp "explorer.exe "
 # abbr -a ls  'exa -a --icons'
 # abbr -a lst 'exa -a --icons --tree'
 # abbr -a ll 'exa -l --icons --no-user --group-directories-first  --time-style long-iso'
