@@ -1,9 +1,7 @@
 # #  /mnt/c/users/Zenith
 
-#export LS_COLORS="di=37:fi= 37:ex=50:"
-export LS_COLORS="di=37:fi= 37:ex=37:"
 # # set -g tide_left_prompt_frame_enabled true
-set -gx LS_COLORS "$LS_COLORS:ow=1;34:tw=1;34:di=36:fi=37"
+set -gx LS_COLORS "$LS_COLORS:ow=1;34:tw=1;34:di=37:fi=37:ex=37"
 set -gx EDITOR 'nvim'
 set -gx VISUAL 'nvim'
 
@@ -173,7 +171,8 @@ abbr -a trr 'trash-restore'
 alias ls "exa -a --icons"
 alias ll='exa -l --icons --no-user --group-directories-first  --time-style long-iso'
 alias n nvim
-alias exp "explorer.exe "
+alias exp "explorer.exe ."
+alias zen " cd /mnt/c/Users/Zenith"
 # abbr -a ls  'exa -a --icons'
 # abbr -a lst 'exa -a --icons --tree'
 # abbr -a ll 'exa -l --icons --no-user --group-directories-first  --time-style long-iso'
