@@ -173,6 +173,8 @@ alias ll='exa -l --icons --no-user --group-directories-first  --time-style long-
 alias n nvim
 alias exp "explorer.exe ."
 alias zen " cd /mnt/c/Users/Zenith"
+alias config "cd /mnt/c/Users/Zenith/.config"
+alias dev "cd /mnt/c/Users/Zenith/Dev/" 
 # abbr -a ls  'exa -a --icons'
 # abbr -a lst 'exa -a --icons --tree'
 # abbr -a ll 'exa -l --icons --no-user --group-directories-first  --time-style long-iso'
