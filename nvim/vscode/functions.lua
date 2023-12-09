@@ -53,7 +53,7 @@ end
 
 
 function Split_editor() vim.fn.VSCodeNotify("workbench.action.splitEditor") end
-    
+
 
 function Comment() vim.fn.VSCodeNotify("editor.action.commentLine") end
 
@@ -98,7 +98,7 @@ function Git_commit_amend() vim.fn.VSCodeNotify("git.commitStagedAmend") end
 
 function Git_push_force() vim.fn.VSCodeNotify("git.pushForce") end
 
--- visual 
+-- visual
 function Outdent_vis() vim.fn.VSCodeNotifyVisual("editor.action.outdentLines", false) end
 
 function Indent_vis() vim.fn.VSCodeNotifyVisual("editor.action.indentLines", false) end

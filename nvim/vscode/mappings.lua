@@ -1,6 +1,6 @@
    Map("", "J", Move_to_bottom_screen)
    Map("", "K", Move_to_top_screen)
-   Map("", "<Space>", Trim__save__no_highlight)
+   Map("", "U", Trim__save__no_highlight)
   --  Vscode: All remaps
 --    Map("", "zy", Toggle_typewriter)
    Map("", "zp", Goto_parent_fold)
@@ -35,7 +35,6 @@
    Map("n", "<leader>gn", Git_open_changes)
 
     --- Vscode: Visual remaps
- 
    Map("v", "<",  Outdent_vis)
    Map("v", "gc", Comment_vis)
    Map("v", ">",  Indent_vis)
