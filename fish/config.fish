@@ -8,6 +8,8 @@ set -gx VISUAL 'nvim'
 
 
 
+
+
 set -g color_pink        21c7c7
 set -g color_purple      AF87FF
 set -g color_grey        878787
@@ -175,6 +177,8 @@ alias exp "explorer.exe ."
 alias zen " cd /mnt/c/Users/Zenith"
 alias config "cd /mnt/c/Users/Zenith/.config"
 alias dev "cd /mnt/c/Users/Zenith/Dev/" 
+# for opening vscode in windows machin
+
 # abbr -a ls  'exa -a --icons'
 # abbr -a lst 'exa -a --icons --tree'
 # abbr -a ll 'exa -l --icons --no-user --group-directories-first  --time-style long-iso'
