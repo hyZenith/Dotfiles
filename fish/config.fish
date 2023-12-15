@@ -5,15 +5,30 @@ set -gx LS_COLORS "$LS_COLORS:ow=1;34:tw=1;34:di=37:fi=37:ex=37"
 set -gx EDITOR 'nvim'
 set -gx VISUAL 'nvim'
 
-
-
+#exa -- colorscehem
+export EXA_COLORS="\
+uu=36:\
+gu=37:\
+sn=32:\
+sb=32:\
+da=34:\
+ur=34:\
+uw=35:\
+ux=36:\
+ue=36:\
+gr=34:\
+gw=35:\
+gx=36:\
+tr=34:\
+tw=35:\
+tx=36:"
 
 
 
 set -g color_pink        21c7c7
 set -g color_purple      AF87FF
 set -g color_grey        878787
-set -g color_white       FFFFFF     
+set -g color_white       FFFFFF
 set -g color_green       87FF5F
 set -g color_cyan        00D7FF
 set -g color_red         FF005F
@@ -169,14 +184,14 @@ abbr -a rm  'trash-put'
 abbr -a rmf 'rm -fr'
 abbr -a trr 'trash-restore'
 
-#alias
+# alias
 alias ls "exa -a --icons"
 alias ll='exa -l --icons --no-user --group-directories-first  --time-style long-iso'
 alias n nvim
 alias exp "explorer.exe ."
 alias zen " cd /mnt/c/Users/Zenith"
 alias config "cd /mnt/c/Users/Zenith/.config"
-alias dev "cd /mnt/c/Users/Zenith/Dev/" 
+alias dev "cd /mnt/c/Users/Zenith/Dev/"
 # for opening vscode in windows machin
 
 # abbr -a ls  'exa -a --icons'
