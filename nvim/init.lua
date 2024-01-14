@@ -11,7 +11,7 @@ require('functions')
 
 if vim.g.vscode then
 
----functions 
+---functions
 function Center_screen() Cmd("call <SNR>3_reveal('center', 0)") end
 
 function Top_screen() Cmd("call <SNR>3_reveal('top', 0)") end
