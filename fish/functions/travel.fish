@@ -157,3 +157,8 @@ end
 funcsave paste_relative_path > /dev/null
 
 echo (set_color yellow)'functions written'
+
+function prli
+	printf '%s\n' $argv
+end
+funcsave prli > /dev/null
