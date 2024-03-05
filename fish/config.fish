@@ -6,22 +6,22 @@ set -gx EDITOR 'nvim'
 set -gx VISUAL 'nvim'
 
 #exa -- colorscehem
-export EXA_COLORS="\
-uu=36:\
-gu=37:\
-sn=32:\
-sb=32:\
-da=34:\
-ur=34:\
-uw=35:\
-ux=36:\
-ue=36:\
-gr=34:\
-gw=35:\
-gx=36:\
-tr=34:\
-tw=35:\
-tx=36:"
+# export EXA_COLORS="\
+# uu=36:\
+# gu=37:\
+# sn=32:\
+# sb=32:\
+# da=34:\
+# ur=34:\
+# uw=35:\
+# ux=36:\
+# ue=36:\
+# gr=34:\
+# gw=35:\
+# gx=36:\
+# tr=34:\
+# tw=35:\
+# tx=36:"
 
 
 
@@ -185,8 +185,8 @@ abbr -a rmf 'rm -fr'
 abbr -a trr 'trash-restore'
 
 # alias
-alias ls "exa -a --icons"
-alias ll='exa -l --icons --no-user --group-directories-first  --time-style long-iso'
+# alias ls "exa -a --icons"
+# alias ll='exa -l --icons --no-user --group-directories-first  --time-style long-iso'
 alias n nvim
 alias exp "explorer.exe ."
 alias zen " cd /mnt/c/Users/Zenith"
@@ -208,8 +208,8 @@ abbr -a fp 'fish -P'
 
 # fzf
 
-bind -M insert \cD paste_important_path
-bind -M insert \cF paste_parent_path
-bind -M insert \cS paste_relative_path
+# bind -M insert \cD paste_important_path
+# bind -M insert \cF paste_parent_path
+# bind -M insert \cS paste_relative_path
 
 

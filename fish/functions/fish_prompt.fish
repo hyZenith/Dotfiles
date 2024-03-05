@@ -63,3 +63,13 @@ function fish_prompt
 	printf '❯'
 	set_color normal
 end
+# function fish_mode_prompt
+# 	# set_color $color_yellow
+# 	switch $fish_bind_mode
+# 		case insert
+# 			echo '󰼁'
+# 		case '*'
+# 			echo ''
+# 	end
+# end
+# funcsave fish_mode_prompt > /dev/null

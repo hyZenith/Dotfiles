@@ -1,19 +1,58 @@
+# ~/.config/starship.toml
 
-format = """
-[╭──](bold #0077c2) $directory\
-$username\
-$hostname\
-$localip\
-$jobs\
-$git_branch\
-$git_state\
-$git_status\
-$status\
-$line_break\
-[╰─](bold #21c7c7)$character"""
+# Inserts a blank line between shell prompts
+add_newline = true
 
+format = """\
+[╭╴](238)$env_var\
+$all[╰─]()$character"""
 
 
 [character]
 success_symbol = "[❯](white)"
 error_symbol = "[❯](red)"
+
+[directory]
+truncation_length = 3
+truncation_symbol = ""
+home_symbol = " ~"
+read_only_style = "197"
+read_only = "  "
+format = "at [$path]($style)[$read_only]($read_only_style) "
+
+
+[git_branch]
+style = "bold #AF87FF"
+
+[terraform]
+format = "via [ terraform $version]($style) 壟 [$workspace]($style) "
+
+[vagrant]
+format = "via [ vagrant $version]($style) "
+
+[docker_context]
+format = "via [ $context](bold blue) "
+
+[helm]
+format = "via [ $version](bold purple) "
+[python]
+symbol = " "
+python_binary = "python3"
+
+[nodejs]
+format = "via [ $version](bold green) "
+[ruby]
+format = "via [ $version]($style) "
+
+[kubernetes]
+format = 'on [ $context\($namespace\)](bold purple) '
+disabled = false
+[kubernetes.context_aliases]
+"clcreative-k8s-staging" = "cl-k8s-staging"
+"clcreative-k8s-production" = "cl-k8s-prod"
+
+
+[env_var.STARSHIP_DISTRO]
+format = '[$env_value](bold white) '
+variable = "STARSHIP_DISTRO"
+disabled = false
