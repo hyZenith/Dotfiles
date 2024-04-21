@@ -1,0 +1,107 @@
+[33mcommit ea0c04891809f2cb39d7df8912b8cc95cd5571e8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: zen_.ith <124890239+hyZenith@users.noreply.github.com>
+Date:   Thu Mar 7 16:48:28 2024 +0530
+
+    starship configuration
+
+[33mcommit 98e9893455c14bd3b1da4223c9ad5a4e888bb07d[m
+Author: zen_.ith <124890239+hyZenith@users.noreply.github.com>
+Date:   Tue Mar 5 19:23:15 2024 +0530
+
+    changing powershell theme
+
+[33mcommit 8ead019876cdc131a181949597292d788992fd2c[m
+Author: zen_.ith <124890239+hyZenith@users.noreply.github.com>
+Date:   Tue Jan 16 18:29:48 2024 +0530
+
+    adding options in init config file
+
+[33mcommit eabbbf6c3a38f891a28aac1aa2bd8a764cf7cad1[m
+Author: zen_.ith <124890239+hyZenith@users.noreply.github.com>
+Date:   Tue Jan 16 18:28:23 2024 +0530
+
+    adding options in init config file
+
+[33mcommit 075c12cc92119f69b9fb558be3f1b170d44b2c5f[m
+Author: hyZenith <hey.h1fz@gmail.com>
+Date:   Sun Jan 14 12:40:31 2024 +0530
+
+    changing vscode configs
+
+[33mcommit abcb1dfbef5a999f0d1e880a4821a8a4d84a74d2[m
+Author: zen_.ith <124890239+hyZenith@users.noreply.github.com>
+Date:   Sun Jan 14 13:24:50 2024 +0530
+
+    changing vscode settings
+
+[33mcommit dae300417b859001908cc5f64a15e01c146161ac[m
+Author: hyZenith <hey.h1fz@gmail.com>
+Date:   Fri Dec 15 14:34:22 2023 +0530
+
+    some minor commit
+
+[33mcommit 43eb5acba0ff1307ea2c73374fd0198096ae3120[m
+Author: hyZenith <hey.h1fz@gmail.com>
+Date:   Sun Dec 10 00:01:35 2023 +0530
+
+    Adding DOC.md
+
+[33mcommit 31c15cf2109c7467a6574299f06f0cd79d3d5ec0[m
+Author: zen_.ith <124890239+hyZenith@users.noreply.github.com>
+Date:   Sat Dec 9 23:53:36 2023 +0530
+
+    Little Changes
+
+[33mcommit da0b04a73527694d0f0799b9970e13663af7f060[m
+Author: zen_.ith <124890239+hyZenith@users.noreply.github.com>
+Date:   Sat Dec 9 23:51:33 2023 +0530
+
+    Little changes
+
+[33mcommit b91a92bacd2cc77a750da50df2c71c5583237ddc[m
+Author: hyZenith <hey.h1fz@gmail.com>
+Date:   Tue Dec 5 22:41:50 2023 +0530
+
+    alias command configuring
+
+[33mcommit 6c3d9b3f3c049845df3a7d1de1cfd37b206e0717[m
+Author: zen_.ith <124890239+hyZenith@users.noreply.github.com>
+Date:   Mon Dec 4 18:46:25 2023 +0530
+
+    ..
+
+[33mcommit bc3bef900b5a37a362c8927e44a3b35c97fed6a0[m
+Author: hyZenith <hey.h1fz@gmail.com>
+Date:   Sun Dec 3 12:37:41 2023 +0530
+
+    ls_color
+
+[33mcommit 6d2decbae79b51ad67a19f151fe5f7a450ab691a[m
+Author: hyZenith <hey.h1fz@gmail.com>
+Date:   Fri Dec 1 23:47:23 2023 +0530
+
+    ..
+
+[33mcommit 38c733e931af5e99fd155e9623a3e0a03e78d829[m
+Author: hyZenith <hey.h1fz@gmail.com>
+Date:   Fri Dec 1 19:06:39 2023 +0530
+
+    directory colors
+
+[33mcommit bf38496331627aa9f5460c613a90ffd57d0439ca[m
+Author: hyZenith <hey.h1fz@gmail.com>
+Date:   Fri Dec 1 19:00:46 2023 +0530
+
+    Exa Ls_color setup
+
+[33mcommit 69645e2d1048c6952b231b4d069da9ad9ae0cb8b[m
+Author: hyZenith <hey.h1fz@gmail.com>
+Date:   Fri Dec 1 11:52:22 2023 +0530
+
+    Nilesoft Shell commit
+
+[33mcommit 14569755289ace621d35dcb6981edcc1dc12e169[m
+Author: zen_.ith <124890239+hyZenith@users.noreply.github.com>
+Date:   Fri Dec 1 11:49:33 2023 +0530
+
+    first commit

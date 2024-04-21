@@ -39,10 +39,7 @@ format = "via [ $version](bold purple) "
 symbol = " "
 python_binary = "python3"
 
-[nodejs]
-format = "via [ $version](bold green) "
-[ruby]
-format = "via [ $version]($style) "
+
 
 [kubernetes]
 format = 'on [ $context\($namespace\)](bold purple) '
