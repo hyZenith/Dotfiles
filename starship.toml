@@ -36,7 +36,7 @@ format = "via [ $context](bold blue) "
 [helm]
 format = "via [ $version](bold purple) "
 [python]
-symbol = " "
+symbol = ""
 python_binary = "python3"
 
 
