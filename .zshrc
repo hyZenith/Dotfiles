@@ -101,5 +101,8 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zenith="cd /mnt/c/Users/Zenith"
+alias workspace="cd /mnt/c/Users/Zenith/Workspace"
+alias gucse="cd /mnt/c/Users/Zenith/Documents/gucse"
+
 
 export LS_COLORS="$LS_COLORS:ow=1;34:tw=1;34:"
