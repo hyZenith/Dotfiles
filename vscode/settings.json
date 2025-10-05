@@ -1,0 +1,147 @@
+{
+  "terminal.integrated.env.windows": {},
+  "security.workspace.trust.untrustedFiles": "open",
+  "code-runner.clearPreviousOutput": true,
+  "editor.mouseWheelZoom": true,
+  "code-runner.runInTerminal": true,
+  "editor.wordWrap": "on",
+  "[javascript]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "security.workspace.trust.enabled": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editorAssociations": {
+    "*.pdf": "default"
+  },
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollbar.horizontalScrollbarSize": 1,
+  "editor.lineNumbers": "relative",
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "git.openRepositoryInParentFolders": "never",
+  "editor.inlineSuggest.suppressSuggestions": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1,
+  "settingsSync.ignoredExtensions": ["angular.ng-template"],
+  "vim.cursorStylePerMode.insert": "line",
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "problems.decorations.enabled": false,
+  "outline.problems.enabled": false,
+  "python.defaultInterpreterPath": "C:\\Users\\Zenith\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "window.customTitleBarVisibility": "auto",
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.fontSize": 20,
+  "editor.fontSize": 20,
+  "workbench.iconTheme": "material-icon-theme",
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "workbench.editor.pinnedTabSizing": "compact",
+  "git.enableSmartCommit": true,
+  "settingsSync.ignoredSettings": [],
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.location": "top",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "cpp": true
+  },
+  "workbench.colorCustomizations": {},
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.empty.hint": "hidden",
+  "editor.glyphMargin": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "supermaven.allowGitignore": true,
+  "editor.codeLensFontFamily": "monaco",
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "editor.fontFamily": "monaco",
+  "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+  "supermaven.enable": {
+    "*": false
+  },
+  "editor.guides.indentation": true,
+
+  // vim settings
+  "vim.leader": " ",
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-a>": false
+  },
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.splitEditorDown"]
+    },
+    {
+      "before": ["<leader>", "v"],
+      "commands": ["workbench.action.splitEditorRight"]
+    },
+    // Move between splits
+    {
+      "before": ["<leader>", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    // tabs 1-9
+    {
+      "before": ["<leader>", "1"],
+      "commands": ["workbench.action.openEditorAtIndex1"]
+    },
+    {
+      "before": ["<leader>", "2"],
+      "commands": ["workbench.action.openEditorAtIndex2"]
+    },
+    {
+      "before": ["<leader>", "3"],
+      "commands": ["workbench.action.openEditorAtIndex3"]
+    },
+    {
+      "before": ["<leader>", "4"],
+      "commands": ["workbench.action.openEditorAtIndex4"]
+    },
+    {
+      "before": ["<leader>", "5"],
+      "commands": ["workbench.action.openEditorAtIndex5"]
+    },
+    {
+      "before": ["<leader>", "6"],
+      "commands": ["workbench.action.openEditorAtIndex6"]
+    },
+    {
+      "before": ["<leader>", "7"],
+      "commands": ["workbench.action.openEditorAtIndex7"]
+    },
+    {
+      "before": ["<leader>", "8"],
+      "commands": ["workbench.action.openEditorAtIndex8"]
+    },
+    {
+      "before": ["<leader>", "9"],
+      "commands": ["workbench.action.openEditorAtIndex9"]
+    }
+  ]
+}
